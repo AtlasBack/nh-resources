@@ -1,0 +1,125 @@
+
+@import "minima/Nighthawkpages-styles";   
+@import "minima/Nighthawkpages-dracula-highlight"; 
+@import "minima/dark-mode";
+
+@font-face {
+    font-family: "Becka Script Plain Regular";
+    src: url($baseurl + "/assets/fonts/Becka\ Script\ Plain\ Regular.otf");
+}
+
+@font-face {
+    font-family: "Collegiate Inside";
+    src: url($baseurl + "/assets/fonts/CollegiateInsideFLF.ttf");
+}
+
+// Mixin for adjusting brightness of an element on hover
+@mixin basic-hover($type) {
+    cursor: pointer;
+    
+    // SASS parent selector! (&)
+    &:hover {
+        // Default light hover preset
+        @if $type == light {
+            filter: brightness(120%);
+        } 
+        // Default dark hover preset
+        @else if $type == dark {
+            filter: brightness(80%);
+        }
+        // For custom brightnesses
+        @else {
+            filter: brightness($type)
+        };
+
+        transition: filter .2s;
+    }
+
+    // not(hover) gives a transition on mouse leave as well!
+    &:not(hover) {
+        filter: brightness(100%);
+        transition: filter .2s;
+    }
+}
+
+@mixin color-hover($before, $after) {
+    cursor: pointer;
+
+    &:hover {
+        color: $after;
+        transition: color .2s;
+    }
+    
+    // not(hover) gives a transition on mouse leave as well!
+    &:not(hover) {
+        color: $before;
+        transition: color .2s;
+    }
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    max-width: unset;
+    background: none
+}
+
+//theme switch I AM A GODDAMN GENIUS LETS GOOO
+
+html, body {
+    .light {
+    background-color: $nighthawk-green !important;
+    }
+    .dark {
+        background-color: $darkmode-base !important;
+    }
+}
+
+.dark {
+    background-color: $darkmode-base !important;
+}
+
+a {
+    color: #22956b !important;
+
+    &:hover {
+        color: #1bf8a7 !important;
+    }
+}
+
+section {
+    width: 90vw;
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+a:hover {
+    @include basic-hover(light);
+}
+
+.page-heading {
+    font-family: $nighthawk-font2 !important;
+    margin-bottom: 2vw !important;
+}
+
+@import "pages/nav.scss";
+@import "pages/footer.scss";
+@import "pages/tablegenerator.scss";
+@import "pages/dashboard.scss";
+@import "pages/assignment.scss";
+@import "pages/class-period.scss";
+@import "pages/blogs.scss";
+@import "pages/dataAnalysis.scss";
+@import "pages/assRequest.scss";
+@import "pages/dataAnalysis.scss";
+@import "pages/assRequest.scss";
+@import "pages/resume.scss";
+@import "pages/filled-resume.scss";
+@import "pages/stats.scss";
+@import "pages/signIn.scss";
+@import "pages/dashboard-new.scss";
+@import "pages/classCreation.scss";
+@import "pages/index.scss";

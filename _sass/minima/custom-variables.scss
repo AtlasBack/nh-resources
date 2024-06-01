@@ -1,0 +1,34 @@
+// override defalt minima variables 
+
+// width of the content area
+// can be set as "px" or "%"
+$content-width:    1000px;
+$on-palm:          800px;
+$on-laptop:        1000px;
+$on-medium:        1000px;
+$on-large:         1200px;
+
+// Temporary solution
+$baseurl: "/jcc_frontend";
+
+// Site colors
+$nighthawk-blue: #002147ff;
+$nighthawk-green: #154734ff;
+$nighthawk-gold: #91976cff;
+
+// test for dark 
+
+// $nighthawk-blue: #020d1bff;
+// $nighthawk-green: #020d1bff;
+// $nighthawk-gold: #144a88;
+
+//for dark mode grr
+$nighthawk-green-bright: #22956b;
+$nighthawk-blue-bright: #144a88;
+
+$darkmode-base: #020d1bff;
+
+// Site fonts
+$nighthawk-font1: "Becka Script Plain Regular";
+$nighthawk-font2: "Collegiate Inside";
+$nighthawk-font3: "Trebuchet MS";
