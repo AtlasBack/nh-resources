@@ -1,14 +1,14 @@
-title: JCC Frontend
-description: "heres to the ones that we gyat"
-owner_name: Aiden Huynh, Ekam Kaire, Toby Leeder, Drew Reed, AJ Ruiz, Ishi Singh
-github_username: aidenhuynh
-github_repo: "jcc_frontend"
-baseurl: "/jcc_frontend"
+title: Nighthawk Resources
+description: "A site by John's Coding Colonies (formerly John's Coding Cats), under the new management of Atlas's Back."
+owner_name: Drew Reed, Aiden Huynh, Toby Leeder, AJ Ruiz, Ishi Singh, Ekamjot Kaire, Raymond Sheng, Ryan McWeeny, Edwin Abraham, Kevin Du, Aaron Rubin, Isabelle Gunawan, Haoxuan Tong
+github_username: AtlasBack
+github_repo: "nh-resources"
+baseurl: "/nh-resources"
 future: true
 remote_theme: jekyll/minima
 minima:
   social_links:
-    - { platform: github, user_url: "https://github.com/aidenhuynh/jcc_frontend"} 
+    - { platform: github, user_url: "https://github.com/AtlasBack/nh-resources"} 
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
 # remote_theme: pages-themes/hacker@v0.2.0

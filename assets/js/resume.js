@@ -90,5 +90,5 @@
             console.log(hobbies)
         }
         function seeResume() {
-            window.open('/jcc_frontend/filledresume/', '_blank');
+            window.open('{{site.baseurl}}/filledresume/', '_blank');
         }

@@ -1,12 +1,14 @@
-# The Coding Colonies Presents: Nighthawk Resources
+# Atlas's Back Presents: Nighthawk Resources, Revised Edition
+
+This is the revised version of Nighthawk Resources (a project originally undertaken by John's Coding Colonies, formerly John's Coding Cats) currently operated by Atlas's Back.
 
 ## Site Runtime
 
-https://john-scc.github.io/jcc_frontend/
+https://atlasback.github.io/nh-resources/
 
 ## Backend Repository
 
-https://github.com/John-sCC/jcc_backend
+https://github.com/atlasback/jcc_backend
 
 ## Scrum Board
 
@@ -23,7 +25,7 @@ See our up-to-date Scrum Board [here]().
 - Send messages to your students and teachers.
 - Enhance your teaching today with Nighthawk Resources!🦅🦅
 
-## Who was involved
+## Who was involved (JCC legacy)
 
 - [Aiden Huynh](https://github.com/aidenhuynh)🤓 - Frontend Lead (wireframe manager and creator; dashboard frontend; table generator)
 - [Drew Reed](https://github.com/drewreed2005) - Subteam Leader/Backend (Sign-in and JWT manipulation; Assignment submission, viewing, and grading)

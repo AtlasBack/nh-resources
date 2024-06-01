@@ -8,7 +8,7 @@ permalink: /image-rec/
 <style>
   @font-face {
     font-family: 'Collegiate Inside';
-    src: url("/jcc_frontend/assets/fonts/CollegiateInsideFLF.ttf");
+    src: url("{{site.baseurl}}/assets/fonts/CollegiateInsideFLF.ttf");
     font-weight: normal;
     font-style: normal;
 }

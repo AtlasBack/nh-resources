@@ -53,7 +53,7 @@ window.onload = (event) => {
     // check if the user is connected
     const connectedUser = localStorage.getItem('connectedUser');
     if (!connectedUser) {
-        window.location = 'https://john-scc.github.io/jcc_frontend/sign-in/';
+        window.location = '{{site.baseurl}}/sign-in/';
         return;
     }
     const userListElement = document.getElementById("userList");
